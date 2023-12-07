@@ -1,0 +1,199 @@
+ body {
+    background: black;
+    color:white;
+    
+    
+}
+
+   
+ 
+.head p{
+    text-align:center;
+}
+
+header li {
+    display:inline;
+    float:right;
+    font-weight:bold;
+    text-align: left;
+}
+header li a{
+ text-position:right;
+ text-decoration: none;
+ 
+ color:#6affe0;
+}
+form input{ border:none;
+background: transparent;
+padding:20px 50px;
+text-align: center;
+width: 240px;
+border:none;
+border-bottom:2px solid black;
+font-size:18px;
+font-weight:200px;
+transition:border 0.5s;
+outline:none;
+height: 15px;
+display:block;
+color: silver;
+    
+}
+button {
+    color:white;
+    margin-left:140px;
+    background:black;
+    border-radius:10px;
+    padding:10px;
+   line-height:5px;
+   
+}
+
+#footer{
+    background:url('scl.png')no-repeat;
+    padding-top:10px;
+   padding-bottom:300px;
+ background-size: cover;
+ background-position:left;
+}
+footer {
+    margin-top:330px;
+    text-align: center;
+    margin-left:0px;
+    color: silver;
+}
+.foot{
+    margin-top:130px;
+    margin-bottom:40px;
+    text-align: center;
+    margin-left:0px;
+    color: silver;
+    background:black;
+    padding:0px 2px 20px 2px
+}
+.exp{
+    background:rgba(10, 20,50, 10);
+    color:silver;
+}
+
+    
+.head{
+    background: url('treat.jpg') no-repeat;
+   padding-top:10px;
+   padding-bottom:700px;
+ background-size: cover;
+}
+.head p{
+    text-align:center;
+}
+header{
+   background:black; 
+   color:#ffffff;
+   
+   border-bottom:5px solid #d5ffdf;
+   padding:80px 30px 80px 20px;
+   margin-top:0px;
+}
+header h4 {
+   color:tan;
+   }
+header li {
+    display:inline;
+    float:right;
+    font-weight:bold;
+    
+}
+a{
+ text-position:right;
+ color:#6affe0;
+ text-decoration: none;
+}
+form input{ border:none;
+background: transparent;
+padding:20px 50px;
+text-align: center;
+width: 240px;
+border:none;
+border-bottom:2px solid black;
+font-size:18px;
+font-weight:200px;
+transition:border 0.5s;
+outline:none;
+height: 15px;
+display:block;
+color: silver;
+    
+}
+button {
+    color:white;
+    margin-left:140px;
+    background:black;
+    border-radius:10px;
+    padding:10px;
+   line-height:5px;
+   
+}
+
+#footer{
+    background:url('scl.png')no-repeat;
+    padding-top:10px;
+   padding-bottom:300px;
+ background-size: cover;
+ background-position:left;
+}
+footer {
+    margin-top:330px;
+    text-align: center;
+    margin-left:0px;
+    color: silver;
+    padding-bottom: 40px;
+}
+.foot{
+    margin-top:0px;
+    margin-bottom:40px;
+    text-align: center;
+    margin-left:0px;
+    color: silver; 
+    padding:50px 2px 40px 2px
+}
+.exp{
+    background:rgba(10, 20,50, 10);
+    color:silver;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 8px;
+    padding-right: 5px;
+}
+.video{
+  width:950px;
+}
+.expo{
+  background:black;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-left: 8px;
+  text-shadow: 10px;
+  color:#d5ffdf;
+}
+.expon{
+  background:rgba(10, 50, 20, 8);
+  border-radius: 10px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-left: 8px;
+  text-shadow: 10px;
+}
+.anchor{
+  text-align: left;
+  text-position:right;
+  float: right;
+}
+.anch{
+  background:rgba(10,30,5, 15);
+  padding-bottom: 150px;
+  padding-top: 100px;
+  border-radius:10px;
+  
+}
