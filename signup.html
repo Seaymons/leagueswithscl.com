@@ -1,34 +1,4 @@
-<?php
-session_start();
-include("mya.php");
-if($_SERVER["REQUEST_METHOD"]=="POST")
-{
-    $username= $_POST['Username']
-    $email= $_POST['email']
-    $password=$_POST['Password']
-    $password2=$_POST['Password2']
-    if(!empty($email) && !empty($Password) && !empty($Username){
-    $query="insert into form (Username,email, Password, Password2) values ('$Username','$email','$Password','Password2');
-   mysqli_query($con,$query);
-   echo"<script type="text/javascript"> alert('Successfully Registered')</script>";
-   }
-   else{
-       echo"<script type="text/javascript">alert('Please enter some valid information')</script>";<!DOCTYPE html>
-       <html lang="en">
-       <head>
-           <meta charset="UTF-8">
-           <title>Page title</title>
-       </head>
-       <body>
-           
-       </body>
-       </html>
-   }
-    
-    
-}
 
-?>
 
 
 <!DOCTYPE html>
