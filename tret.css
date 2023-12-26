@@ -1,48 +1,29 @@
- body {
+body {
     background: black;
     color:white;
-    
-
-
-
-  
+   font-family: Arial, Helvetica, sans-serif; 
     
 }
 
    
  
-.head p{
-    text-align:center;
-}
+
 
 header li {
     display:inline;
     float:right;
     font-weight:bold;
     text-align: left;
+    font-size: 40px;
 }
-header li a{
+/*header li {
  text-position:right;
  text-decoration: none;
  
  color:#6affe0;
-}
-form input{ border:none;
-background: transparent;
-padding:20px 50px;
-text-align: center;
-width: 240px;
-border:none;
-border-bottom:2px solid black;
-font-size:18px;
-font-weight:200px;
-transition:border 0.5s;
-outline:none;
-height: 15px;
-display:block;
-color: silver;
-    
-}
+ display: block;
+}*/
+
 button {
     color:white;
     margin-left:140px;
@@ -83,36 +64,38 @@ footer {
     
 .head{
     background: url('treat.jpg') no-repeat;
-   padding-top:10px;
-   padding-bottom:700px;
- background-size: cover;
- border-radius:10px;
+    background-size: cover;
+margin-left: 0px;
+margin-right:0px;
+padding: 0px 0px 700px 600px;
+border:10px;
+border-radius: 10px solid white;
 }
 .head p{
     text-align:center;
+    position:center;
+    margin-left: 25px;
 }
 header{
    background:black; 
    color:#ffffff;
-   
+   font-size: 35px;
    border-bottom:5px solid #d5ffdf;
-   padding:80px 30px 180px 20px;
+   padding:80px 30px 80px 20px;
    margin-top:0px;
 }
 header h4 {
    color:tan;
+   margin-left: 26px;
    }
-header li {
-    display:inline;
+header li a {
+    display:block;
     float:right;
     font-weight:bold;
     
+    
 }
-a{
- text-position:right;
- color:#6affe0;
- text-decoration: none;
-}
+
 form input{ border:none;
 background: transparent;
 padding:20px 50px;
@@ -142,9 +125,10 @@ button {
 #footer{
     background:url('scl.png')no-repeat;
     padding-top:10px;
-   padding-bottom:300px;
+   padding-bottom:500px;
  background-size: cover;
- background-position:left;
+ background-position:center;
+ 
 }
 footer {
     margin-top:330px;
@@ -191,9 +175,12 @@ footer {
   text-shadow: 10px;
 }
 .anchor{
-  text-align: left;
-  text-position:right;
-  float: right;
+  
+  margin-left:650px;
+  display:block;
+  color:#6affe0;
+  
+  
 }
 .anch{
   background:rgba(10,30,5, 15);
@@ -201,4 +188,69 @@ footer {
   padding-top: 100px;
   border-radius:10px;
   
+  
 }
+li a{
+  
+ text-position:right;
+ 
+ text-decoration: none;
+color:#6affe0;
+}
+.save{
+  
+  border-radius:20px solid;
+  background:url("bio.jpg");
+  padding:250px 0px 500px 0px;
+  background-size: cover;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+.saved{
+  border-radius:20px solid;
+  background:url("che.jpg");
+  padding:250px 0px 500px 0px;
+  background-size: cover;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.saver{
+  border-radius:20px solid;
+  background:url("phy.png");
+  padding:250px 0px 500px 0px;
+  background-size: cover;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.savely{
+  border-radius:20px solid;
+  background:url("math.jpg");
+  padding:250px 0px 500px 0px;
+  background-size: cover;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.savel{
+  border-radius:20px solid;
+  background:url("eng.jpg");
+  padding:250px 0px 500px 0px;
+  background-size: cover;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+a strong{
+  color:gold;
+  margin-left: 25px;
+}
+h1{
+  margin-left: 30px;
+  font-size:70px;
+}
+p{
+  margin-left: 27px;
+  font-size:50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+ } 
