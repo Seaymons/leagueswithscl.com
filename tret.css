@@ -59,6 +59,8 @@ footer {
 .exp{
     background:rgba(10, 20,50, 10);
     color:silver;
+    padding:100px;
+    background:cover;
 }
 
     
@@ -153,6 +155,7 @@ footer {
     padding-bottom: 20px;
     padding-left: 8px;
     padding-right: 5px;
+    background-size:cover;
 }
 .video{
   width:950px;
@@ -165,6 +168,7 @@ footer {
   padding-left: 8px;
   text-shadow: 10px;
   color:#d5ffdf;
+    background:cover;
 }
 .expon{
   background:rgba(10, 50, 20, 8);
@@ -173,6 +177,7 @@ footer {
   padding-top: 5px;
   padding-left: 8px;
   text-shadow: 10px;
+    background:cover;
 }
 .anchor{
   
