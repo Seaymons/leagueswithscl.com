@@ -2,7 +2,6 @@ body {
     background: black;
     color:white;
    font-family: Arial, Helvetica, sans-serif; 
-   background-size:cover; 
 }
 
    
@@ -151,8 +150,7 @@ footer {
 }
 
 
-.video{
-  width:950px;
+
 }
 .expo{
   background:black;
@@ -167,9 +165,7 @@ footer {
 .expon{
   background:rgba(10, 50, 20, 8);
   border-radius: 10px;
-  padding-bottom: 10px;
-  padding-top: 5px;
-  padding-left: 8px;
+  padding-bottom:100px;
   text-shadow: 10px;
     background:cover;
 }
@@ -249,7 +245,7 @@ h1{
 }
 p{
   margin-left: 27px;
-  font-size:50px;
+  font-size:25px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
  } 
