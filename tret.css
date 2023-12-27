@@ -59,8 +59,10 @@ footer {
 .exp{
     background:rgba(10, 20,50, 10);
     color:silver;
-    padding:100px;
-    background:cover;
+    border-radius:10px solid;
+    background-size:cover;
+    padding-top:100px;
+    padding-bottom:100px;
 }
 
     
@@ -147,16 +149,8 @@ footer {
     color: silver; 
     padding:50px 2px 40px 2px
 }
-.exp{
-    background:rgba(10, 20,50, 10);
-    color:silver;
-    border-radius: 15px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    padding-left: 8px;
-    padding-right: 5px;
-    background-size:cover;
-}
+
+
 .video{
   width:950px;
 }
